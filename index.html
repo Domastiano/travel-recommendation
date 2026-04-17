@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Recommendation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo"><a href="#">TravelBloom</a></div>
+  <div class="nav-links">
+    <a href="#" data-page="home">Home</a>
+    <a href="#" data-page="about">About Us</a>
+    <a href="#" data-page="contact">Contact Us</a>
+  </div>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search beach, temple, country...">
+    <button id="searchBtn">Search</button>
+    <button id="clearBtn">Clear</button>
+  </div>
+</nav>
+
+<div class="container">
+  <!-- Home Page -->
+  <div id="homePage" class="page active-page">
+    <div class="hero">
+      <h1>Explore Your Next Adventure</h1>
+      <p>Discover breathtaking beaches, ancient temples, and vibrant countries.</p>
+    </div>
+    <div id="resultsContainer"></div>
+  </div>
+
+  <!-- About Us Page -->
+  <div id="aboutPage" class="page">
+    <div class="about-section">
+      <h2>About TravelBloom</h2>
+      <p>We are a passionate team dedicated to helping travelers find the best destinations worldwide. Our mission is to provide authentic recommendations and inspire unforgettable journeys.</p>
+      <h3>Our Team</h3>
+      <div class="team">
+        <div class="member">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="CEO">
+          <h4>Jane Smith</h4>
+          <p>CEO & Founder</p>
+        </div>
+        <div class="member">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="CTO">
+          <h4>John Doe</h4>
+          <p>CTO</p>
+        </div>
+        <div class="member">
+          <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Head of Content">
+          <h4>Emily Johnson</h4>
+          <p>Head of Content</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Us Page -->
+  <div id="contactPage" class="page">
+    <div class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Have questions or want to collaborate? Reach out to us!</p>
+      <div class="contact-info">
+        <p>📞 +1 (555) 123-4567</p>
+        <p>✉️ info@travelbloom.com</p>
+        <p>📍 123 Travel Street, New York, NY 10001</p>
+      </div>
+      <form class="contact-form" action="mailto:info@travelbloom.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message..."></textarea>
+        <button type="submit">Send Email</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 TravelBloom. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
