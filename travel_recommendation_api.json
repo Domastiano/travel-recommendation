@@ -1,0 +1,44 @@
+{
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bondi Beach",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+      "description": "Famous beach in Sydney, Australia, known for surfing and golden sand."
+    },
+    {
+      "id": 2,
+      "name": "Copacabana Beach",
+      "imageUrl": "https://images.unsplash.com/photo-1590523741831-7d9e4e07f8b1?w=600",
+      "description": "Iconic beach in Rio de Janeiro, Brazil, with vibrant atmosphere."
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat",
+      "imageUrl": "https://images.unsplash.com/photo-1553267751-1c3ad6e4e2b0?w=600",
+      "description": "Massive temple complex in Cambodia, a UNESCO World Heritage site."
+    },
+    {
+      "id": 2,
+      "name": "Kinkaku-ji (Golden Pavilion)",
+      "imageUrl": "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?w=600",
+      "description": "Zen Buddhist temple in Kyoto, Japan, covered in gold leaf."
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Japan",
+      "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600",
+      "description": "Land of the rising sun – rich culture, technology, and nature."
+    },
+    {
+      "id": 2,
+      "name": "Italy",
+      "imageUrl": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600",
+      "description": "Famous for art, history, delicious cuisine, and the Colosseum."
+    }
+  ]
+}
